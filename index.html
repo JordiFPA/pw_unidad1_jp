@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!-- Tipo de documento a trabajar, HTML 5 -->
+<html lang="es"> <!-- html elemento raiz de toda pagina web, contenido Ingles no siempre esto detecta google para referenciar la pagina si es español es y ingles en -->
+<!-- elemento html donde se pone la config de la pagina, no visible para el usuario-->
+<head>
+    <meta charset="UTF-8"> <!-- nos define la codificacion de caracteres de pagina web, estandar utf8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Content sirve para paginas web responsivas -->
+
+    <title>Home || Jordi Pila</title> 
+</head>
+<!-- Corresponde al contenido visual de mi pagina web, todo lo que el usuario visualiza en pantalla, texto, etc-->
+<body> 
+    <header> <!-- cabecera-->
+        <h1>Universidad Central del Ecuador </h1>
+        <h3>Carrera de computación</h3>
+    </header>  
+    <nav></nav> <!-- barra de navegacion -->
+    <section> <!-- Informacion principal, ES UN CONTENEDOR-->
+        <h1> Mi primera pagina web </h1>     <!-- cabeceras de secciones-->
+        <h6>Jordi Pila</h6>
+        <!-- Parrafos de secciones -->
+        <p>Este es  el primer parrafo de mi página web </p> <!--Parrafo-->  
+        <span>Parrafos más cortos</span> <!-- Parrafos pequeños--->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque placeat, accusantium itaque possimus vero totam reiciendis aut sed magnam odio.</p>
+        <!--Textos --> 
+        <strong> Texto de importancia que quiero resaltar</strong>
+        <br>
+        <br>
+        <b>Textos que no quiero darles relevancia</b>
+        <br>
+        <em>Texto en cursiva con importancia</em>
+        <br>
+        <i>Texto en cursiva pero sin importancia</i>
+        br
+        <u>Texto subrayado</u>
+        <br>
+        <hr>
+        <s>Texto eliminado</s>
+        <br>
+        <mark>Texto resaltado</mark>
+        <br>
+        <!-- los navbar son listas, son la base de las listas, para menus-->
+        <ul> <!-- No interesa el orden de los items-->
+            <li>Ventas</li>
+            <li>Compras</li>
+            <li>Inventario</li>
+        </ul>    
+        <ol> <!-- Pone un orden a los items-->
+            <li>Ventas</li>
+            <li>Compras</li>
+            <li>Inventario</li>
+        </ol> 
+
+        <!-- Tablas-->
+        <table border="1">
+            <thead> <!-- Cabecera de la tabla-->
+                <!-- Declaramos la fila primero, para esto usamos tr --> 
+                <tr> 
+                    <!-- aqui como contenido de la fila declaro  todas las columnas--> 
+                     <th>#</th>   
+                     <th>Nombre </th> 
+                     <th>Apellido </th> 
+                     <th>CI </th> 
+                     <th>Genero</th>
+                     <th>Accion</th>  
+                </tr>
+            </thead> 
+            <tbody>
+                <!-- Por cada fila es un elemtno html TR-->
+                <tr>
+                    <td> 1 </td>
+                    <td> Jordi </td>
+                    <td> Pila </td>
+                    <td> 1752908085 </td>
+                    <td>Masculino</td>
+                    <td> <button> Editar</button></td>
+                </tr> 
+                <tr>
+                    <td> 2 </td>
+                    <td> Melany </td>
+                    <td> Caizapasto </td>
+                    <td> 1752908085 </td>
+                    <td>Femenino</td>
+                    <td> <button> Editar</button></td>
+                </tr> 
+            </tbody> <!-- Cuerpo de la tabla -->
+        </table>
+        <div></div> <!-- Agrupar o manipular informacion, CONTENEDOR-->
+        <!--  contenedores/ agrupadores el header, nav, section....... -->
+        <!-- Formularios --> 
+         <br>
+         <form action=""> <!-- se declara un formulario -->
+            <label for="id_nombre">Nombre</label> <!-- Aqui se pone en el for, el id del imput-->
+            <input type="text" id="id_nombre">
+            <label for="id_password">Password</label> 
+            <input type="password" id="id_password">
+            <label for="id_fecha"> Fecha Nacimiento </label>
+            <input type="date" id="id_fecha">
+            <label for="id_edad"> Edad</label>
+            <input type="number" id="id_edad"> 
+            <button> Guardar </button>
+         </form>  
+         <br>
+         <!--Elementos Multimedia-->
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png
+         " alt="No se puede visualizar" width="300" height="400">
+         <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+         </video>
+
+
+
+
+        <button> Aceptar </button> <!-- Boton-->
+    </section> 
+
+    <aside></aside> <!-- barra lateral-->
+
+    <footer><!-- Pie de pagina -->
+        <h3> Todos los Derechos Reservados</h3>
+    </footer> 
+
+
+</body>
+
+</html>
