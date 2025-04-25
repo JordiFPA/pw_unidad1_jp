@@ -18,16 +18,18 @@
         <div id="id_espacio"> </div>
         <label id="id_label_1" for="id_numero_1">Numero 1 </label>
         <input id="id_numero_1" type="number">
-        <label id="id_label_2" for="id_numero_2">Numero</label>
+        <label id="id_label_2" for="id_numero_2">Numero 2 </label>
         <input id="id_numero_2" type="number">
-        <button onclick="cambiarColor('id_label_1','blue')"> CambiarColor1 </button>
-        <button onclick="cambiarColor('id_label_2','yellow')">CambiarColor2 </button>
-        <button onclick="agregarBoton()">Agregar Elemento</button>
-        <button id="id_error">Error</button>
-        <button onclick="eliminar('id_error')">Eliminar</button>
+       
+        <p id="id_resultado">Resultado </p>
 
-        <label id="id_concatenar" for=""></label>
-    </section> 
+        <Button onclick="evaluarOperacion('+')">Sumar </Button>
+        <Button onclick="evaluarOperacion('-')">Restar</Button>
+        <button onclick="evaluarOperacion('/')">Dividir</button>
+        <button onclick="evaluarOperacion('*')">Multiplicar</button>
+        <button onclick="fundamentos()">Fundamentos de JS</button>
+
+     </section> 
 
     <aside></aside> 
 
